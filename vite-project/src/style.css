@@ -1,0 +1,126 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f6f5f5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #005fa3;
+  }
+  
+  .addform {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .error {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  .contactList {
+    margin-top: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding:16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact-list__title {
+    cursor: pointer;
+  }
+  .btn-del {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4444;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  .btn-del:hover{
+    background-color: #ff0000;
+  }
+  .edit-contact-form__input {
+    width: 95%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .edit-contact-form__btn {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .edit-contact-form__error {
+    color: #ff4444;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  .success {
+    color: green;
+    font-size: 14px;
+  }
